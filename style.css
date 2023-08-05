@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+header div{
+    float: left;
+}
+header .logo{
+    margin-left: 150px;
+    padding: 20px;
+}
+header .logo img{
+    cursor: pointer;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 150px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+header .nav ul li a:hover{
+    color: #FE4D00;
+}
+
+
+
+
+
+
+
+
+
+.FirstSection{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FirstSectionText, .FirstSectionImg{
+    width: 50%;
+}
+.FirstSectionText{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.FirstSectionImg{
+    padding-right: 160px;
+}
+.FirstSectionImg img{
+    max-width: 100%;
+    height: auto;
+}
+
+.FirstSectionText h4{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    letter-spacing: 1px;
+}
+.FirstSectionText h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 0;
+}
+.FirstSectionText span{
+    color: #FE4D00;
+}
+.FirstSectionText h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -12px;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    color: #333333;
+}
+.FirstSectionText p{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.FirstSectionText input{
+    padding: 10px 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.FirstSectionText input:hover{
+    background-color: #FE4D00;
+    box-shadow: 5px 10px 30px rgba(51, 51, 51, 0.3);
+    transition: all 0.2s ease-in;
+}
+
+
+
+
+
+
+
+
+/* Second Section Start */
+.SecondSection{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecondSection div{
+    width: 40%;
+}
+.SecondSectionText h4{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    letter-spacing: 1px;
+}
+.SecondSectionText h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 0;
+}
+.SecondSectionText p{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.SecondSectionText input{
+    padding: 10px 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.SecondSectionText input:hover{
+    background-color: #FE4D00;
+    box-shadow: 5px 10px 30px rgba(51, 51, 51, 0.3);
+    transition: all 0.2s ease-in;
+}
+/* Second Section End */
